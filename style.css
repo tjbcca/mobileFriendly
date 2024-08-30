@@ -1,0 +1,51 @@
+.primary {
+  text-align: center;
+  margin: auto;
+  color: lightgray;
+  padding: 0% 10%;
+  font-size: larger;
+}
+body {
+  background-color: black;
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+.italic {
+  font-style: italic;
+}
+.frame {
+  max-width: 400px;
+  max-height: 300px;
+  width: auto;
+  height: auto;
+  border: 3px solid darkred;
+  background: red;
+  margin: auto;
+  padding: 0px 10px;
+  align-items: baseline;
+}
+.logo {
+  max-width: 350px;
+  max-height: 250px;
+  width: auto;
+  height: auto;
+}
+.red {
+  color: red;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+@media screen and (min-width: 600px) {
+  .sBreak {
+    display: none;
+  }
+}
+.apin {
+  border: inset 5pt red;
+}
