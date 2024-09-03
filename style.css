@@ -4,16 +4,12 @@
   color: lightgray;
   padding: 0% 10%;
   font-size: larger;
-}
-body {
   background-color: black;
-  height: auto;
-  width: auto;
-  max-width: 100%;
-  max-height: 100%;
 }
 .italic {
   font-style: italic;
+  margin: auto;
+  text-align: center;
 }
 .frame {
   max-width: 400px;
@@ -40,13 +36,24 @@ body {
     display: none;
   }
 }
+@media screen and (max-width: 1024px) {
+  .logo {
+    height: 10em;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .frame {
+    width: 15em;
+  }
+}
 .apin {
+  display: flex;
+  justify-self: center;
   border: inset 5pt red;
   max-width: 100%;
   max-height: 100%;
   width: auto;
   height: auto;
-  text-align: center;
   margin: auto;
 }
 .jer {
@@ -54,6 +61,13 @@ body {
   max-height: 100%;
   width: auto;
   height: auto;
-  text-align: center;
+}
+.txt {
   margin: auto;
+  text-align: center;
+}
+@media screen and (max-width: 1024px) {
+  .apin {
+    width: 15em;
+  }
 }
